@@ -13,6 +13,7 @@ module.exports = {
   },
   rules: {
     // Unused vars - identifica variaveis criadas mas nao utilizadas e nao emite alerta de erro no lint **
+    "vue/no-unused-components": "off",
     "no-unused-vars": "off",
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
